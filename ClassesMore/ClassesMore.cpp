@@ -72,6 +72,7 @@ void moveClass(Sales_data s1, Sales_data s2) {
 	std::cout << "1.move tempor test \t: " << s1.unit_sold << std::endl;
 	std::cout << "2.move tempor test \t: " << s2.unit_sold << std::endl;
 }
+//using class keyword
 MySalesData add(const MySalesData& lhs, const MySalesData& rhs) {
 	MySalesData  sum = lhs;
 	sum.combine(rhs);
